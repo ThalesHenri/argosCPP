@@ -1,0 +1,32 @@
+# Binários e Objetos de Compilação
+bin/
+bin-int/
+obj/
+*.o
+*.a
+*.so
+
+# Arquivos gerados por IDEs ou Sistemas de Build
+.Makefile.swp
+Makefile
+*.make
+*.sln
+*.vcxproj
+*.user
+.directory
+
+# Pasta de Release Local e Pacotes Compactados
+Argos-Release/
+*.tar.gz
+*.zip
+
+# Arquivos Temporários do Sistema e Editores
+.DS_Store
+*~
+*.swp
+*.swo
+.netrw*
+.nvimlog
+
+# Logs
+*.log
